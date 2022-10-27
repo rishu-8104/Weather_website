@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="rainspecificweatherdata.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Rain Measurement</title>
+	</head>
+	<body style="background-image: url('index1.jpg');">
+
+        <a href="index.html"><button class="button button1">Weather Data (Latest 30)</button></a>
+        <a href="windspeed.html"><button class="button button2">Wind Speed (Latest 20)</button></a>
+        <a href="temperature.html"><button class="button button3">Temperature (Latest 20)</button></a>
+        <a href="myinfo.html"><button class="button button4">My INFO</button></a>
+        <a href="selectmeasurementtype.html"><button class="button button7">Specific Weather Data</button></a>
+
+
+        <h1>Rain</h1>
+
+        <div class="dropdown">
+            <button class="button button6" >Select Weather Data Measurement-Type</button>
+            <div class="dropdown-content">
+                <a href="rainspecificweatherdata.html">RAIN</a>
+                <a href="windspeedspecificweatherdata.html">WIND SPEED</a>
+                <a href="winddirectionspecificweatherdata.html">WIND DIRECTION</a>
+                <a href="lightspecificweatherdata.html">LIGHT</a>
+                <a href="temperaturespecificweatherdata.html">TEMPERATURE</a>
+            </div>
+        </div>		
+
+        <div id="currentSelection"></div>
+        
+        <div class="dropdown">
+            <button class="button button5">Select Time-Interval</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="top20WindSpeedreadings ('now', this)">NOW</a>
+                <a href="#" onclick="top20WindSpeedreadings ('24', this)">24 Hours</a>
+                <a href="#" onclick="top20WindSpeedreadings ('48', this)">48 Hours</a>
+                <a href="#" onclick="top20WindSpeedreadings ('72', this)">72 Hours</a>
+                <a href="#" onclick="top20WindSpeedreadings ('1 week', this)">1 Week</a>
+            </div>
+        </div>
+
+
+
+        <table style="text-align: center;">
+            <tr>
+                <th style="width: 10%;">S/no.</th>
+                <th style="width: 53%;">Measurement Date</th>
+                <th style="width: 27.5%;">Measurement Time</th>
+                <th>Rain</th>
+            </tr>
+            <tbody id="top_25_rain_data"></tbody>
+        </table>
+
+        <div style="background-color: aliceblue;" id="canvas_div"></div>
+        <canvas id="myChart"> </canvas> 
+
+    
+	</body>
+</html>

@@ -1,0 +1,106 @@
+*{   
+  margin:0;
+    padding:0;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 7px;
+  }
+
+.button1 {width:20%;background-color: rgb(255, 62, 68);border-radius: 100px;}
+.button2 {width:20%;background-color: rgb(86, 198, 0);border-radius: 100px;}
+.button3 {width:20%;background-color: #00a4ccff;border-radius: 100px;}
+.button4 {width:20%;background-color: rgb(86, 198, 0);border-radius: 100px;}
+.button5 {width:100%;background-color: #81026e; border-radius: 100px;font-size: 20px;}
+.button6 {width: 100%;background-color: #81026e; border-radius: 100px;font-size: 20px;}
+.button7 {background-color: rgb(255, 62, 68);border-radius: 100px;}
+
+h1{
+  margin: 30px;
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgb(165, 153, 255);
+  border-radius: 200px;
+}
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    background-color: #FFFFFF;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+
+.information h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  background-color: rgb(143, 0, 74);
+}
+
+
+table {
+  border-spacing: 0.5rem;
+  width:100%;
+  border-style: dotted;
+  border-color: black;
+  border-radius: 0.5cm;
+  border-width: 4px;
+  padding: 5px; 
+  margin-top: 10px;
+
+}
+
+th{
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: rgb(221, 248, 140);
+  border-radius: 200px;
+}
+
+
+td {
+  padding: 0.5rem;
+  font-size: 20px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+td:nth-child(1) { background: hsl(150, 50%, 50%); }
+td:nth-child(2) { background: hsl(160, 60%, 50%); }
+td:nth-child(3) { background: hsl(170, 70%, 50%); }
+td:nth-child(4) { background: hsl(180, 80%, 50%); }
+td:nth-child(5) { background: hsl(190, 90%, 50%); }
+td:nth-child(6) { background: hsl(200, 99%, 50%); }

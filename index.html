@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--gfdydaus-->
+		<script src="scriptweatherdata.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Weather Data</title>
+	</head>
+	<body style="background-image: url('index1.jpg');">
+
+        <a href="index.html"><button class="button button1">Weather Data (Latest 30)</button></a>
+        <a href="windspeed.html"><button class="button button2">Wind Speed (Latest 20)</button></a>
+        <a href="temperature.html"><button class="button button3">Temperature (Latest 20)</button></a>
+        <a href="myinfo.html"><button class="button button4">My INFO</button></a>
+        <a href="selectmeasurementtype.html"><button class="button button7">Specific Weather Data</button></a>
+
+        <div class="latest30weatherdatareadings">
+			<h1>Latest 30 Weather Data Readings</h1>
+			
+		<table style="text-align: center;">
+				<tr>
+					<th style="width: 7%;">S/no.</th>
+					<th style="width: 29%;">Measurement Date</th>
+					<th style="width: 16%;">Measurement Time</th>
+					<th style="width: 26%;">Measurement Type</th>
+					<th> Measurement Value</th>
+				</tr>
+				<tbody id="latest30"></tbody>
+		</table>
+        </div>
+	</body>
+</html>
