@@ -1,6 +1,6 @@
-const Temperature20 ="http://webapi19sa-1.course.tamk.cloud/v1/weather/temperature";
+const Temperature20 ="https://webapi19sa-1.course.tamk.cloud/v1/weather/temperature";
 
-const direcHrAvgUri = "http://webapi19sa-1.course.tamk.cloud/v1/weather";
+const direcHrAvgUri = "https://webapi19sa-1.course.tamk.cloud/v1/weather";
 
 const latest20Tempdata = (timeInterval) => {
     const canvasDiv = document.getElementById("canvas_div");
