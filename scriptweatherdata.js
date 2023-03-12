@@ -1,4 +1,4 @@
-const weatherdata30="http://webapi19sa-1.course.tamk.cloud/v1/weather";
+const weatherdata30="https://webapi19sa-1.course.tamk.cloud/v1/weather";
 
 
 
