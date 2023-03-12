@@ -1,6 +1,6 @@
-const latest20WindSpeed = "http://webapi19sa-1.course.tamk.cloud/v1/weather/wind_speed";
+const latest20WindSpeed = "https://webapi19sa-1.course.tamk.cloud/v1/weather/wind_speed";
 
-const Avgdata = "http://webapi19sa-1.course.tamk.cloud/v1/weather";
+const Avgdata = "https://webapi19sa-1.course.tamk.cloud/v1/weather";
 
 
 const top20WindSpeedreadings = (timeInterval) => {
